@@ -19,8 +19,9 @@ int main() {
 	    }
 	    sort(v1.begin(),v1.end());
 	    sort(v2.begin(),v2.end());
-	    int c=0;
+	   
 	    int i=0,j=0;
+            int c=0;
 	    while(i<n && j<n){
 	        if(v1[i]<=v2[j]){
 	            c=c+1;
