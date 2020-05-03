@@ -3,8 +3,9 @@
 using namespace std;
 
 int main() {
-    int n;
-    cin>>n;
+    
+	int n;
+        cin>>n;
     while(n--){
         int count=0;
         string j;
@@ -19,7 +20,5 @@ int main() {
                   cout<<count<<endl;
            
     }
-	
-	
-	return 0;
+    return 0;
 }
