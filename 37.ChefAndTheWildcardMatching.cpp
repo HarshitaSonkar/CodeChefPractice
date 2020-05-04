@@ -11,10 +11,10 @@ int main() {
 	    cin>>x>>y;
 	    bool b=true;
 	    for(int i=0; i<x.size();i++){
-	        if(x[i]==y[i] || x[i]=='?' || y[i]=='?'){
-	            //b=true;
+	        if(x[i] == y[i] || x[i] =='?' || y[i] =='?'){
 	            
-	        }else
+			//b=true;
+	         }else
 	            b=false;
 	            
 	        }
